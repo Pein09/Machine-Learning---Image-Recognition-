@@ -14,3 +14,5 @@ prediction.loadModel()
 predictions, probabilities = prediction.classifyImage(os.path.join(execution_path, "download.jpg"), result_count=5)
 for eachPrediction, eachProbability in zip(predictions, probabilities):
     print(eachPrediction , " : " , eachProbability)
+
+print("this is new branch littlefeature")
